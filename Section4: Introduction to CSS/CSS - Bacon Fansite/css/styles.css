@@ -1,10 +1,26 @@
 h1 { color: red;
     font-size: 75px;}
-
+    
 .brocolli{
     background-color: green;
 }
 
+/* Classes can be used multiple times */
 .bacon{
     background-color: red;
+}
+
+/* ID's can only be used once */
+#heading{
+    color:green;
+}
+
+/*Pseudo classes - are like hover, that happens when an action is done?*/
+
+#heading:hover{
+    color: red;
+}
+
+.hoverpic:hover{
+    background-color: white;
 }
